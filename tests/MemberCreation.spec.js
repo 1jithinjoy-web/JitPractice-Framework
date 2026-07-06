@@ -30,6 +30,7 @@ test('Create New Member', async ({ page }) => {
   // Save Member
   await page.locator("//input[@value='Create member']").click()
   await page.waitForTimeout(3000)
+  await page.waitForEvent(1000)
 
 //   // Verification
 //   // await expect(page.locator('body')).toContainText('John')    
