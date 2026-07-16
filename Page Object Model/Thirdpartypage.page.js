@@ -8,3 +8,4 @@ class Thirdpartypage
     }
 }
 export default Thirdpartypage
+//checking wheather any changes or not in page object
